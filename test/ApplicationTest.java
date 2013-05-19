@@ -31,6 +31,7 @@ public class ApplicationTest {
     public void simpleCheck() {
         int a = 1 + 1;
         assertThat(a).isEqualTo(2);
+        System.out.println("test");
     }
     
     @Test
